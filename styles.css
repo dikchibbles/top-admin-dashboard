@@ -19,6 +19,10 @@ h1, p, h4, h3, h5, h6 {
     margin: 0;
 }
 
+h1 {
+    font-size: 2.5vw;
+}
+
 h5 {
     margin-bottom: 8px;
 }
@@ -97,7 +101,7 @@ a {
 .notification {
     grid-column: 2;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -108,13 +112,13 @@ a {
 }
 
 .profile-image {
-    height: 35px;
-    width: 35px;
+    height: 50px;
+    width: 50px;
 }
 
 .profile-image-lg {
     width: 50px;
-    height:auto;
+    height:50px;
 }
 
 .intro {
@@ -141,9 +145,8 @@ a {
 
 /* CSS */
 .button-34 {
-  background: #5E5DF0;
+  background: #1C7947;
   border-radius: 999px;
-  box-shadow: #5E5DF0 0 10px 20px -10px;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
